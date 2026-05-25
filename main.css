@@ -1,0 +1,90 @@
+body{
+    background-color: #B5C2B7;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#logo {
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px;
+}
+
+.headerInfo{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerText{
+    max-width: 500px;
+    margin: 20px auto;
+    font-size: 16px;
+    color: #333; 
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.buttonImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;   
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.buttonLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px; 
+    /* top rightAndLeft bottom */
+
+}
+
+.socialButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.buttonContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonText{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttonDescription{
+    font-size: 12px;
+    opacity: 0.7;
+}
